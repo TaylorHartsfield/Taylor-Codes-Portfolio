@@ -2,16 +2,17 @@ import './App.css';
 import Homepage from './components/homepage/homepage';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
-import Navbar from './components/Nav';
+import Navbar from './components/navbar/Nav';
 import Projects from './components/projects/projects';
 import Resume from './components/resume/resume';
 import {Route, Routes} from "react-router-dom";
+import {MDBContainer} from 'mdb-react-ui-kit';
 
 function App() {
   return ( 
-    <div>
+    <MDBContainer fluid>
       <Navbar />
-      <div className="container">
+      <MDBContainer>
         <Routes>
           <Route path="/" element= {<Homepage />} />
           <Route path="/about" element= {<About />} />
@@ -19,8 +20,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />}/>
         </Routes>
-      </div>
-    </div>
+      </MDBContainer>
+    </MDBContainer>
   )
 }
 
