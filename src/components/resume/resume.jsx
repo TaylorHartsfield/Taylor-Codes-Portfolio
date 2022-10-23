@@ -1,6 +1,5 @@
-import { Page, Document } from 'react-pdf';
-import TaylorResume from "../assets/TaylorResume.pdf"
-
+import { Page, Document } from 'react-pdf/dist/esm/entry.webpack';
+import TaylorResume from "../assets/TaylorResume.pdf";
 
 export default function Resume(){
 
