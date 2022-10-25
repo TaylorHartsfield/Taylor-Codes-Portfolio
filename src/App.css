@@ -123,6 +123,79 @@ button:hover{
   cursor: url('./cursors/cursor.png'), auto;
 }
 
+.reachout{
+  text-align: center;
+}
+
+.contact-me{
+
+  text-align: left;
+  padding: 0 2rem 0 2em;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 400px;
+  line-height: 1.5rem;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid #001858;
+  background-color: transparent;
+  width: 400px;
+  margin-left: 3px;
+  padding-left: 5px;
+  color:#001858;
+  font-size: larger;
+}
+
 form {
+  border-style: none;
   font-family: 'Nanum Gothic Coding', monospace;
+  color:#001858;
+}
+
+label{
+  text-align: left;
+  font-size: 20px;
+  line-height: 2;
+  padding-left: 0;
+  padding-top: 18px;
+}
+
+.submit-button {
+  padding: .5em;
+  width: 80px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  border-radius: 10px;
+  border: #f582ae;
+  border-style: solid;
+  background-color: transparent;
+}
+
+.submit-button:hover{
+  background-color: #f582ae;
+  color: #f9f8fc;
+  cursor: url('./cursors/cursor.png'), auto;
+}
+
+input:focus {
+  outline:none !important;
+}
+
+input:hover {
+  cursor: url('./cursors/quill-pen.png'), auto;
+}
+textarea{
+  background-color:#f9f8fc;
+}
+textarea:hover {
+  cursor: url('./cursors/quill-pen.png'), auto;
+}
+textarea:focus {
+  outline:none !important;
+}
+
+label:hover{
+  cursor: url('./cursors/quill-pen.png'), auto;
 }

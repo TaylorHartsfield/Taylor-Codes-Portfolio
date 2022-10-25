@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -44,33 +44,44 @@ export default function Contact() {
     }
     
     function MessageError(){
-        <h3>
-            Whoops! Something went wrong here. Please try again or e-mail me directly at:
+        return(
+        <p style={{textAlign:"center"}}>
+            Whoops! Something went wrong here. Please try again or e-mail me directly at:<br/>
             <em>taylormhartsfield@gmail.com</em>
-        </h3>
+        </p>)
     }
 
 
     return (
         <div className="content-container">
         <Container className="contact">
-            <h3 className="text-center mx-auto">Get In Touch</h3>
-            {messageError? <MessageError />: null}
-            {messageSent ? <MessageSent/> : <>
+            <Row>
+            <h3 style={{
+                padding: "1em",
+                fontSize: "40px",
+                color:"#001858",
+            }}
+            className="text-center mx-auto">Get In Touch</h3>
+            </Row>
+            <Row>
+                <Col style={{
 
-            <div className="contact-me">
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="from_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
-            </form>
-            </div>
-</>}
-               
+                    padding: "1em",
+                }}>
+                {messageError? <MessageError /> :
+                <p className="reachout">
+                    I would love to hear from you!<br/>
+                    I am open to full-time positions, freelance work, or a quick chat.<br/>
+                    Please include details about your project and the best way for me to get in touch with you!<br />
+                    XOXO,
+                    Taylor
+
+                </p>}
+                <div style={{
+                    alignContent:"cetnter",
+                    textAlign:"center",
+                    justifyContent:"center"
+                }}>
             <div className="mb-4">
             <i style={{
                 padding:"0.5em",
@@ -91,6 +102,25 @@ export default function Contact() {
                 }}
                 className="fa-brands fa-youtube fa-2xl fa-bounce"></i>
             </div>
+            </div>
+                </Col>
+                <Col className="contact-me">
+                {messageSent ? <MessageSent/> : <>
+                <form ref={form} onSubmit={sendEmail}>
+                    <h4><label>Name</label></h4>
+                    <input type="text" name="from_name" required/><br/>
+                    <h4><label>Email</label></h4>
+                    <input type="email" name="user_email" required/><br/>
+                    <h6><label>Message</label></h6>
+                    <textarea name="message" required rows="4" cols="50"/><br/>
+                    <input className="submit-button" type="submit" value="Send" />
+                </form>
+        
+</>}
+                </Col>
+            
+            </Row>
+        
             </Container>
         </div>)
   
