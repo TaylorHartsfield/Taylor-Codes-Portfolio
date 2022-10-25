@@ -1,4 +1,4 @@
-import { Page, Document } from 'react-pdf/dist/esm/entry.webpack';
+import { Page, Document} from 'react-pdf/dist/esm/entry.webpack';
 import TaylorResume from "../assets/TaylorResume.pdf";
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -18,27 +18,26 @@ export default function Resume(){
 
 
     return(
-       <Container style={{
-       }}>
+        <div className="resume">
+       <Container>
         <Row>
             <Col></Col>
             <Col>
                 <button onClick={handleOnClick}>Download Resume PDF</button>
             </Col>
             <Col></Col>
-        
+        </Row>
         <Row>
             <Col></Col>
             <Col>
                 <Document file = {TaylorResume}>
-
-                    <Page pageNumber={1}/>
-              
+                    <Page size="letter" pageNumber={1}/>
                 </Document>
             </Col>
             <Col></Col>
             </Row>
-        </Row>
+        
         </Container>
+        </div>
     )
 }

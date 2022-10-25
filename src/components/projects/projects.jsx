@@ -1,5 +1,7 @@
 export default function Projects(){
     return (
-        <div>View my projects!</div>
+        <div>
+            View my projects!
+        </div>
     )
 }

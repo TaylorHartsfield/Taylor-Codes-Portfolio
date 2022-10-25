@@ -1,5 +1,7 @@
 export default function About(){
     return (
-        <div>About Me!</div>
+        <div>
+            About Me!
+        </div>
     )
 }
