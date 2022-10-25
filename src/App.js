@@ -6,22 +6,28 @@ import Navbar from './components/navbar/Nav';
 import Projects from './components/projects/projects';
 import Resume from './components/resume/resume';
 import {Route, Routes} from "react-router-dom";
-import {MDBContainer} from 'mdb-react-ui-kit';
+import {Container} from './components/styles/Container.styled';
+import { GlobalStyles } from './components/styles/Global';
+
+
 
 function App() {
   return ( 
-    <MDBContainer fluid>
-      <Navbar />
-      <MDBContainer>
-        <Routes>
-          <Route path="/" element= {<Homepage />} />
-          <Route path="/about" element= {<About />} />
-          <Route path="/contact" element= {<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />}/>
-        </Routes>
-      </MDBContainer>
-    </MDBContainer>
+    
+    <Container>
+      <GlobalStyles />
+        <Navbar />
+          <Routes>
+            <Route path="/" element= {<Homepage />} />
+            <Route path="/about" element= {<About />} />
+            <Route path="/contact" element= {<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />}/>
+          </Routes>
+        </Container>
+ 
+
+
   )
 }
 
