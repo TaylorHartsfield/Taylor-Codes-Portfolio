@@ -45,26 +45,34 @@ object {
 .about {
   cursor: url('./cursors/mouse-cursor.png'), auto;
   height: 600px;
-  background: #FFFAFF;
+  background: #f9f8fc;
   font-size: 1.15em;
   align-items: center;
   justify-content: center;
- 
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 8px;
 }
 
 .contact {
   cursor: url('./cursors/mouse-cursor.png'), auto;
   height: 600px;
-  background: #0e172c;
+  background: #f9f8fc;
+  font-size: 1.15em;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 8px;
 }
 
 .projects {
   cursor: url('./cursors/mouse-cursor.png'), auto;
   height: 600px;
-  background: #FFFAFF;
+  background: #f9f8fc;
   font-size: 1.15em;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 8px;
 }
 
 p {
@@ -96,7 +104,7 @@ a:hover{
 
 i:hover{
   opacity: 0.6;
-  color: purple;
+  color: #078080;
   cursor: url('./cursors/cursor.png'), auto;
 
 }
@@ -113,4 +121,8 @@ button:hover{
   background-color: #078080;
   color:#fef6e4;
   cursor: url('./cursors/cursor.png'), auto;
+}
+
+form {
+  font-family: 'Nanum Gothic Coding', monospace;
 }
