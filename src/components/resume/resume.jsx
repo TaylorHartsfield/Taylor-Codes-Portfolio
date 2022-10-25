@@ -31,9 +31,9 @@ export default function Resume(){
             <Col></Col>
             <Col>
                 <Document file = {TaylorResume}>
-                    <div style={{ boxShadow: "rgba(50, 50, 93, 0.25) 0px 10px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",}}>
+
                     <Page pageNumber={1}/>
-                    </div>
+              
                 </Document>
             </Col>
             <Col></Col>
