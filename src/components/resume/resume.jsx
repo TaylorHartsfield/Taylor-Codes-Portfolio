@@ -1,6 +1,6 @@
 import { Page, Document } from 'react-pdf/dist/esm/entry.webpack';
 import TaylorResume from "../assets/TaylorResume.pdf";
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Resume(){
 
@@ -16,24 +16,29 @@ export default function Resume(){
         })
     }
 
-    function Download(){
-        return (
-            <button style={{
-                backgroundColor: "#0e172c",
-                color: "#f9f8fc",
-            }} onClick={handleOnClick}>Download Resume PDF</button>
-        )
-    }
 
     return(
-        <Container style={{
-            alignItems: "center",
-            justifyContent: "center",
-        }}>
-        <Document file = {TaylorResume}>
-            <Download />
-            <Page pageNumber={1}/>
-        </Document>
+       <Container style={{
+       }}>
+        <Row>
+            <Col></Col>
+            <Col>
+                <button onClick={handleOnClick}>Download Resume PDF</button>
+            </Col>
+            <Col></Col>
+        
+        <Row>
+            <Col></Col>
+            <Col>
+                <Document file = {TaylorResume}>
+                    <div style={{ boxShadow: "rgba(50, 50, 93, 0.25) 0px 10px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",}}>
+                    <Page pageNumber={1}/>
+                    </div>
+                </Document>
+            </Col>
+            <Col></Col>
+            </Row>
+        </Row>
         </Container>
     )
 }

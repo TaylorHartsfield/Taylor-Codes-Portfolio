@@ -1,5 +1,3 @@
-import { MDBCardFooter } from "mdb-react-ui-kit";
-
 export default function StyledFooter(){
     function handleGithub(){
         window.open("https://github.com/TaylorHartsfield", "_blank")
@@ -22,6 +20,7 @@ export default function StyledFooter(){
             textAnchor:"bottom",
 
         }}>
+            
             <section className="mb-4">
             <i style={{
                 padding:"0.5em",

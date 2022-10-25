@@ -15,7 +15,7 @@ export default function Homepage(){
                 margin: "0",
                 alignContent: "center",
                 justifyContent: "center",
-                paddingTop: "20%",
+                paddingTop: "15%",
             }}>
                 <Row>
                     <Col lg={6}>
@@ -27,18 +27,18 @@ export default function Homepage(){
                                 border: "solid",
                                 borderColor: "#a786df",
                                 borderWidth: "10px",
+                                boxShadow: "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px",
                             }}></img>
                         </div>
                     </Col>
                     <Col lg={6} style={{
                         paddingTop: "2em",
-                        overflow: "visible",
                     }}>
                         <Name />
                         <h4 style={{
                             paddingBottom: "2em"
                         }}>Full Stack Developer</h4>
-                        <p>It's been <bold style={{color:"#078080", display:"inline"}}>{days} days</bold> since I wrote my first 'Hello World'!</p>
+                        <p style={{display:"inline"}}>It's been <bold style={{color:"#078080"}}>{days} days</bold> since I wrote my first 'Hello World'!</p>
                     </Col>
                 </Row>
             </Container>

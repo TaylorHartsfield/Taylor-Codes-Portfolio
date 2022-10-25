@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic+Coding&display=swap');
 
 * {
- 
   font-family: 'Major Mono Display', monospace;
   padding: 0;
   margin: 0;
@@ -50,4 +49,17 @@ i:hover{
   color: purple;
   cursor: url('./cursors/cursor.png'), auto;
 
+}
+
+button{
+  font-family: 'Nanum Gothic Coding', monospace;
+  border-radius: 8px;
+  border: #f582ae;
+  background-color: transparent;
+}
+
+button:hover{
+  background-color: #078080;
+  color:#fef6e4;
+  cursor: url('./cursors/cursor.png'), auto;
 }
