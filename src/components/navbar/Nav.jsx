@@ -31,16 +31,25 @@ export default function Navbar(){
 
                 <MDBCollapse navbar show={showNavRight}>
                     <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
-                <MDBNavbarItem className="nav-item">
+                <MDBNavbarItem className="nav-item" style={{
+                    fontFamily: "Nanum Gothic Coding, monospace",
+                    padding:"0.5em",
+                
+                }}>
                     <CustomLink to="/about">About</CustomLink>
                 </MDBNavbarItem>
-                <MDBNavbarItem className="nav-item">
+                <MDBNavbarItem 
+                className="nav-item"
+                style={{
+                    padding:"0.5em",
+                }}>
                     <CustomLink to="/projects">Projects</CustomLink>
                     </MDBNavbarItem>
-                <MDBNavbarItem className="nav-item">
-                    <CustomLink to="/contact">Contact</CustomLink>
-                    </MDBNavbarItem>
-                <MDBNavbarItem className="nav-item">
+                <MDBNavbarItem 
+                className="nav-item"
+                style={{
+                    padding:"0.5em",
+                }}>
                     <CustomLink to="/resume">Resume</CustomLink>
                 </MDBNavbarItem>
                     </MDBNavbarNav>

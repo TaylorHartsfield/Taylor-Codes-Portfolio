@@ -8,6 +8,7 @@ import Resume from './components/resume/resume';
 import {Route, Routes} from "react-router-dom";
 import {Container} from './components/styles/Container.styled';
 import { GlobalStyles } from './components/styles/Global';
+import StyledFooter from './components/homepage/footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />}/>
           </Routes>
+          <StyledFooter/>
         </Container>
  
 
