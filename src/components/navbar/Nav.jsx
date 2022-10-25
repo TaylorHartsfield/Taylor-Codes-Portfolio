@@ -50,7 +50,7 @@ export default function Navbar(){
                 style={{
                     padding:"0.5em",
                 }}>
-                    <CustomLink to="/resume">Resume</CustomLink>
+                    <CustomLink to="/contact">Contact</CustomLink>
                 </MDBNavbarItem>
                     </MDBNavbarNav>
                 </MDBCollapse>

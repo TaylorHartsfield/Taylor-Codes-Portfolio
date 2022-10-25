@@ -1,4 +1,5 @@
 import TaylorResume from "../assets/TaylorResume.pdf";
+import { Container } from "react-bootstrap";
 
 export default function Contact(){
 
@@ -27,8 +28,12 @@ export default function Contact(){
     window.open("https://www.youtube.com/watch?v=T5ZozcJGobc&list=PL4n4VHJ7Pj_AhvDLaUozrTFcZfdtZRJp8")
    }
     return (
+        <div className="content-container">
+        <Container className="projects">
+            <h3 className="text-center mx-auto">Get In Touch</h3>
         
-        <div>
+        
+      
             <button onClick={handleOnClick}>Download Resume PDF</button>
 
             <div className="mb-4">
@@ -51,6 +56,7 @@ export default function Contact(){
                 }}
                 className="fa-brands fa-youtube fa-2xl fa-bounce"></i>
             </div>
+            </Container>
         </div>)
   
 }
