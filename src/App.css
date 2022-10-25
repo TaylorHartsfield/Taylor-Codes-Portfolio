@@ -38,6 +38,7 @@ a {
 
 a:hover{
   cursor: url('./cursors/cursor.png'), auto;
+  color: #078080;
 }
 
 i:hover{
