@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic+Coding&display=swap');
 
 * {
  
@@ -25,11 +25,15 @@ body {
 
 p {
   color:#172c66;
+  padding: .2em;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size:20px;
+  text-align: left;
+
 }
 
 h1 {
   color:#001858;
-
 }
 
 a {

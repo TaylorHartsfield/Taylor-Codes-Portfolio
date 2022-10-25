@@ -18,7 +18,7 @@ export default function Homepage(){
                 paddingTop: "20%",
             }}>
                 <Row>
-                    <Col>
+                    <Col lg={6}>
                         <div className="img-holder">
                             <img src={Headshot} alt="" style={{
                                 borderRadius: "50%",
@@ -30,12 +30,15 @@ export default function Homepage(){
                             }}></img>
                         </div>
                     </Col>
-                    <Col style={{
-                        paddingTop: "4em"
+                    <Col lg={6} style={{
+                        paddingTop: "2em",
+                        overflow: "visible",
                     }}>
                         <Name />
-                        <p>Full Stack Developer</p>
-                        <p>It's been {days} days since I wrote my first 'Hello World'!</p>
+                        <h4 style={{
+                            paddingBottom: "2em"
+                        }}>Full Stack Developer</h4>
+                        <p>It's been <bold style={{color:"#078080", display:"inline"}}>{days} days</bold> since I wrote my first 'Hello World'!</p>
                     </Col>
                 </Row>
             </Container>
