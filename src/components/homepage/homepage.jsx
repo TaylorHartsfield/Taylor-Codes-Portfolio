@@ -9,7 +9,7 @@ export default function Homepage(){
     const days = Math.floor(((current - beginning)/(1000*60*60*24)))
 
     return (
-       
+       <div className="homepage-container">
             <Container style={{
                 margin: "0",
                 alignContent: "center",
@@ -49,6 +49,7 @@ export default function Homepage(){
                     </Row>
             
                 </Container>
+                </div>
     
        
     )

@@ -1,19 +1,7 @@
-import TaylorResume from "../assets/TaylorResume.pdf";
 import { Container } from "react-bootstrap";
 
 export default function Contact(){
 
-    function handleOnClick(){
-        fetch(TaylorResume).then(respose => {
-            respose.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = TaylorResume;
-                alink.click();
-            })
-        })
-    }
 
     function handleGithub(){
         window.open("https://github.com/TaylorHartsfield", "_blank")
@@ -31,11 +19,7 @@ export default function Contact(){
         <div className="content-container">
         <Container className="projects">
             <h3 className="text-center mx-auto">Get In Touch</h3>
-        
-        
-      
-            <button onClick={handleOnClick}>Download Resume PDF</button>
-
+               
             <div className="mb-4">
             <i style={{
                 padding:"0.5em",

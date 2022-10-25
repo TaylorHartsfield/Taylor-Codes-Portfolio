@@ -1,4 +1,4 @@
-import { Container } from "../styles/Container.styled";
+import { Container } from "react-bootstrap";
 
 export default function About(){
     return (

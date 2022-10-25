@@ -5,7 +5,8 @@ import Contact from './components/contact/contact';
 import Navbar from './components/navbar/Nav';
 import Projects from './components/projects/projects';
 import {Route, Routes} from "react-router-dom";
-import {Container} from './components/styles/Container.styled';
+import Resume from './components/resume/resume';
+import {Container} from 'react-bootstrap';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/about" element= {<About />} />
             <Route path="/contact" element= {<Contact />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </Container>
   )

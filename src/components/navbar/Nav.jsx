@@ -15,7 +15,7 @@ export default function Navbar(){
     const [showNavRight, setShowNavRight] = useState(false);
 
     return (
-            <MDBNavbar  expand="lg" className="nav">
+            <MDBNavbar  expand="lg">
                 <MDBContainer>
                 <MDBNavbarBrand>
                     <Link to="/" className="site-title">
@@ -51,6 +51,14 @@ export default function Navbar(){
                     padding:"0.5em",
                 }}>
                     <CustomLink to="/contact">Contact</CustomLink>
+                </MDBNavbarItem>
+                <MDBNavbarItem 
+                className="nav-item"
+                style={{
+                    padding:"0.5em",
+                }}
+                >
+                    <CustomLink to="/resume">Resume</CustomLink>
                 </MDBNavbarItem>
                     </MDBNavbarNav>
                 </MDBCollapse>
