@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 * {
+ 
   font-family: 'Major Mono Display', monospace;
   padding: 0;
   margin: 0;
 }
 
 body {
+  cursor: url('./cursors/mouse-cursor.png'), auto;
   height: 100vh;
   background: linear-gradient(
     to right,
@@ -34,9 +36,13 @@ a {
   color: #0e172c;
 }
 
+a:hover{
+  cursor: url('./cursors/cursor.png'), auto;
+}
+
 i:hover{
   opacity: 0.6;
   color: purple;
-  cursor: url('./cursors/StarCursor.png'), auto;
+  cursor: url('./cursors/cursor.png'), auto;
 
 }
