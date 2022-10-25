@@ -36,9 +36,8 @@ export default function Contact() {
 
     function MessageSent(){
         return (
-            <div>
-            <h3>Message recieved! Thanks for getting in touch!</h3>
-            <em>taylormhartsfield@gmail.com</em>
+            <div style={{textAlign:"center"}}>
+            <h3 style={{textAlign:"center"}}>Message recieved! Thanks for getting in touch!</h3>
             </div>
         )
     }
@@ -57,17 +56,16 @@ export default function Contact() {
         <Container className="contact">
             <Row>
             <h3 style={{
-                padding: "1em",
+                paddingTop: "1em",
+                paddingBottom: ".3em",
                 fontSize: "40px",
                 color:"#001858",
             }}
             className="text-center mx-auto">Get In Touch</h3>
             </Row>
             <Row>
-                <Col style={{
-
-                    padding: "1em",
-                }}>
+                <Col>
+                <Row style={{marginBottom: "1em"}}></Row>
                 {messageError? <MessageError /> :
                 <p className="reachout">
                     I would love to hear from you!<br/>
@@ -108,11 +106,11 @@ export default function Contact() {
                 {messageSent ? <MessageSent/> : <>
                 <form ref={form} onSubmit={sendEmail}>
                     <h4><label>Name</label></h4>
-                    <input type="text" name="from_name" required/><br/>
-                    <h4><label>Email</label></h4>
-                    <input type="email" name="user_email" required/><br/>
+                    <input type="text" name="from_name" required/>
+                    <h4><label style={{paddingTop: ".3em"}}>Email</label></h4>
+                    <input type="email" name="user_email" required/>
                     <h6><label>Message</label></h6>
-                    <textarea name="message" required rows="4" cols="50"/><br/>
+                    <textarea name="message" required rows="4" cols="50"/><br />
                     <input className="submit-button" type="submit" value="Send" />
                 </form>
         

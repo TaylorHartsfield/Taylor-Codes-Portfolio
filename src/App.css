@@ -42,6 +42,7 @@ object {
   align-items: center;
   justify-content: center;
 }
+
 .about {
   cursor: url('./cursors/mouse-cursor.png'), auto;
   height: 600px;
@@ -55,7 +56,8 @@ object {
 
 .contact {
   cursor: url('./cursors/mouse-cursor.png'), auto;
-  height: 600px;
+  height: fit-content;
+  margin-bottom: 10%;
   background: #f9f8fc;
   font-size: 1.15em;
   align-items: center;
@@ -128,7 +130,6 @@ button:hover{
 }
 
 .contact-me{
-
   text-align: left;
   padding: 0 2rem 0 2em;
   justify-content: center;
@@ -144,7 +145,6 @@ input{
   background-color: transparent;
   width: 400px;
   margin-left: 3px;
-  padding-left: 5px;
   color:#001858;
   font-size: larger;
 }
@@ -153,14 +153,16 @@ form {
   border-style: none;
   font-family: 'Nanum Gothic Coding', monospace;
   color:#001858;
+  margin-top: none;
 }
 
 label{
   text-align: left;
   font-size: 20px;
-  line-height: 2;
-  padding-left: 0;
-  padding-top: 18px;
+  line-height: 1;
+  margin-bottom: none;
+  padding-bottom: none;
+  margin-top: 1em;
 }
 
 .submit-button {
@@ -171,6 +173,8 @@ label{
   border: #f582ae;
   border-style: solid;
   background-color: transparent;
+  margin-bottom: 5%;
+  align-self: center;
 }
 
 .submit-button:hover{
