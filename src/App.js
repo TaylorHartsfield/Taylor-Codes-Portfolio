@@ -2,7 +2,7 @@ import './App.css';
 import Homepage from './components/homepage/homepage';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
-import Navbar from './components/navbar/Nav';
+import NB from './components/navbar/Nav';
 import Projects from './components/projects/projects';
 import {Route, Routes} from "react-router-dom";
 import Resume from './components/resume/resume';
@@ -13,9 +13,8 @@ function App() {
 
 
   return ( 
-    
+    <><NB/>
     <Container>
-        <Navbar />
           <Routes>
             <Route path="/" element= {<Homepage />} />
             <Route path="/about" element= {<About />} />
@@ -24,6 +23,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </Container>
+        </>
   )
 }
 

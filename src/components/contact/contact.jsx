@@ -53,6 +53,7 @@ export default function Contact() {
 
     return (
         <div className="content-container">
+            
         <Container className="contact">
             <Row>
             <h3 style={{
