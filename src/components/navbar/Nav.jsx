@@ -11,7 +11,11 @@ export default function NB(){
         const isActive = useMatch({path: resolvedPath.pathname, end:true})
     
         return(
-            <li style={{padding:".5em"}}className={isActive ? "active" : ""}>
+            <li style={{
+                padding:".5em",
+                textAlign:"right",
+            }}
+            className={isActive ? "active" : ""}>
                 <Link to={to} {...props}>
                     {children}
                 </Link>
