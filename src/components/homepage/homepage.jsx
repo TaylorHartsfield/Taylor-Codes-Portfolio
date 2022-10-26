@@ -31,7 +31,7 @@ export default function Homepage(){
                                 border: "solid",
                                 borderColor: "#a786df",
                                 borderWidth: "10px",
-                                boxShadow: "rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px",
+                                boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
                             }}/>
                     </Col>
                     <Col xs={{span: 12, order:1}} 

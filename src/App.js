@@ -13,7 +13,8 @@ function App() {
 
 
   return ( 
-    <><NB/>
+    <>
+    <NB/>
     <Container>
           <Routes>
             <Route path="/" element= {<Homepage />} />
@@ -22,8 +23,8 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-        </Container>
-        </>
+      </Container>
+    </>
   )
 }
 
