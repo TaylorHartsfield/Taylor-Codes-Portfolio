@@ -34,6 +34,7 @@ export default function NB(){
                 </Navbar.Brand>
                             <Nav className="me-auto">
                                 <CustomLink to="/about">About</CustomLink>
+                                <CustomLink to="/skills">Skills</CustomLink>
                                 <CustomLink to="/projects">Projects</CustomLink>
                                 <CustomLink to="/contact">Contact</CustomLink>
                                 <CustomLink to="/resume">Resume</CustomLink>

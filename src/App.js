@@ -7,6 +7,8 @@ import Projects from './components/projects/projects';
 import {Route, Routes} from "react-router-dom";
 import Resume from './components/resume/resume';
 import {Container} from 'react-bootstrap';
+import Skills from './components/skills/skills';
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element= {<Homepage />} />
             <Route path="/about" element= {<About />} />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element= {<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
