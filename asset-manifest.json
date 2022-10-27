@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.12594992.css",
-    "main.js": "/static/js/main.0ff19252.js",
+    "main.js": "/static/js/main.f69278f6.js",
     "static/media/stack.gif": "/static/media/stack.a8aaddf5c3479d2ae8f6.gif",
     "static/media/headshot.jpeg": "/static/media/headshot.fe13a8b05f7d5b260bb1.jpeg",
+    "static/media/TaylorResume.pdf": "/static/media/TaylorResume.636cdbf2f50f040f465b.pdf",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
-    "static/media/TaylorResume.pdf": "/static/media/TaylorResume.7bd4da7b2583bbef4301.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
@@ -15,10 +15,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/index.html",
     "main.12594992.css.map": "/static/css/main.12594992.css.map",
-    "main.0ff19252.js.map": "/static/js/main.0ff19252.js.map"
+    "main.f69278f6.js.map": "/static/js/main.f69278f6.js.map"
   },
   "entrypoints": [
     "static/css/main.12594992.css",
-    "static/js/main.0ff19252.js"
+    "static/js/main.f69278f6.js"
   ]
 }
