@@ -7,44 +7,42 @@ export default function Skills(){
     return (
 
         <div className="content-container">
-        <Container>
-            <Row>
-                <Col></Col>
+        <Container className="projects">
+        <h1 className="text-center mx-auto">View My Projects</h1>
+               <h1>Tech Stack</h1>
+               <img className="techstack" src={Stack} alt="techstack gif"/>
+           
+        
+            {/* <Row style={{margin: "none"}}>
                 <Col>
-                <h1>Tech Stack</h1></Col>
-                <Col></Col>
-            </Row>
-            <Row>
                 <ul className="listOfLang">
-                    <li className="language">Github| </li>
-                    <li className="language">Git| </li>
-                    <li className="language">AWS| </li>
-                    <li className="language">SQL| </li>
-                    <li className="language">Agile/SCRUM| </li>
-                    <li className="language">Jinja| </li>
-                    <li className="language">Bootstrap| </li>
-                    <li className="language">jQuery| </li>  
-                    <li className="language">HTML| </li>
-                    <li className="language">CSS| </li> 
-                    <li className="language">JSON| </li> 
-                    <li className="language">AJAX| </li>
-                    <li className="language">PostgreSQL| </li>
-                    <li className="language">Flask| </li>
-                    <li className="language">SQLAlchemy| </li> 
-                    <li className="language">JavaScript| </li>  
-                    <li className="language">React| </li>
-                    <li className="language">Python </li>
+                    <li className="language" >Python</li>
+                    <li className="language" >Flask</li>
+                    <li className="language" >SQLAlchemy</li>
+                    <li className="language">Jinja</li>
+                    <li className="language">PostgreSQL</li>
+                    <li className="language">SQL</li>
                 </ul>
-            </Row>
-            <Row>
-                <Col>
                 </Col>
+                <Col>
+                <ul>
+                    <li className="languageF">React</li>
+                    <li className="languageF">JavaScript</li>
+                    <li className="languageF">HTML</li>
+                    <li className="languageF">CSS</li>
+                    <li className="languageF">jQuery</li>
+                    <li className="languageF">AJAX</li>
+                    <li className="languageF">Bootstrap</li>
+                </ul>
+                </Col>
+                <Row>
+                    <Col></Col>
                 <Col>
                     <img className="techstack" src={Stack} alt="techstack gif"/>
                 </Col>
-                <Col>
-                </Col>
-            </Row>
+                <Col></Col>
+                </Row>
+            </Row> */}
         </Container>
         </div>
         

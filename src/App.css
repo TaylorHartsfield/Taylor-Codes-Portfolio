@@ -209,10 +209,10 @@ label:hover{
 
 
 .techstack {
-  min-height: 600px;
-  max-height: 600px;
-  min-width: 900px;
-  max-width: 900px;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 600px;
+  max-width: 600px;
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  
@@ -234,8 +234,18 @@ label:hover{
   background: linear-gradient(180deg, #730040 0%, #301cbe 100%);
   background-clip: text;
   color: transparent;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1;
+  text-align: left;
+}
+
+.languageF {
+  background: linear-gradient(180deg, #730040 0%, #301cbe 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  line-height: 1;
+  text-align: right;
 }
 
 @keyframes movement {
@@ -249,12 +259,5 @@ label:hover{
 }
 
 .listOfLang {
-  line-height: 2;
-  display: inline-flex;
-  list-style:none;
-  left: -5000px;
-  list-style-position: inside;
-  animation-name: movement;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
+  margin: none;
 }
