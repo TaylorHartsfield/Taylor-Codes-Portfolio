@@ -226,7 +226,6 @@ label:hover{
 
 .titleSpan {
   background: linear-gradient(180deg, #ffd7ff 0%, #ffb6ff 100%);
-  
   color: transparent;
 }
 
@@ -244,8 +243,9 @@ label:hover{
     transform: translateX(-5760px)
   }
   to {
-    transform: translateX(2600px)
+    transform: translateX(3760px)
   }
+  
 }
 
 .listOfLang {
@@ -256,6 +256,5 @@ label:hover{
   list-style-position: inside;
   animation-name: movement;
   animation-duration: 100s;
-  transition: transform 3s;
-  
+  animation-iteration-count: infinite;
 }
