@@ -1,45 +1,58 @@
 import Stack from '.././assets/stack.gif';
+import { useState, useEffect } from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
-
+import {backend} from './backend';
+import { frontend } from './frontend';
+import { tools } from './tools';
 
 export default function Skills(){
+
+    const [backendStack, setBackendStack] = useState('Python')
+    const [frontendStack, setFrontendStack] = useState('React')
+    const [toolsStack, setToolsStack] = useState('Git')
+
+
+    useEffect(()=>{
+        const interval = setInterval(() => {
+
+            const beRandom = Math.floor(Math.random()*{backend}.backend.length)
+            const feRandom = Math.floor(Math.random()*{frontend}.frontend.length)
+            const toolsRandom = Math.floor(Math.random()*{tools}.tools.length)
+
+            setBackendStack({backend}.backend[beRandom])
+            setFrontendStack({frontend}.frontend[feRandom])
+            setToolsStack({tools}.tools[toolsRandom])
+            
+        }, 2000);
+        return () => clearInterval(interval);
+
+
+    }, []);
 
     return (
 
         <div className="content-container">
         <Container className="projects">
         <h1 className="text-center mx-auto">Tech Stack</h1>
-              
-            <Row style={{margin: "none"}}>
+            <Row>
                 <Col>
-                <ul className="listOfLang">
-                    <li className="language" >Python</li>
-                    <li className="language" >Flask</li>
-                    <li className="language" >SQLAlchemy</li>
-                    <li className="language">Jinja</li>
-                    <li className="language">PostgreSQL</li>
-                    <li className="language">SQL</li>
-                </ul>
+                    <div className="language">{backendStack}</div>
                 </Col>
                 <Col>
-                <ul>
-                    <li className="languageF">React</li>
-                    <li className="languageF">JavaScript</li>
-                    <li className="languageF">HTML</li>
-                    <li className="languageF">CSS</li>
-                    <li className="languageF">jQuery</li>
-                    <li className="languageF">AJAX</li>
-                    <li className="languageF">Bootstrap</li>
-                </ul>
+                    <div className="language">{frontendStack}</div>
                 </Col>
-                <Row>
-                    <Col></Col>
                 <Col>
-                    <img className="techstack" src={Stack} alt="techstack gif"/>
+                    <div className="language">{toolsStack}</div>
                 </Col>
-                <Col></Col>
+
                 </Row>
-            </Row>
+                    <Row>
+                        <Col></Col>
+                        <Col>
+                            <img className="techstack" src={Stack} alt="techstack gif"/>
+                        </Col>
+                        <Col></Col>
+                    </Row>
         </Container>
         </div>
         

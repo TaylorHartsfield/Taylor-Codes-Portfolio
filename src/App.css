@@ -236,17 +236,9 @@ label:hover{
   color: transparent;
   font-size: 40px;
   line-height: 1;
-  text-align: left;
+  text-align: center;
 }
 
-.languageF {
-  background: linear-gradient(180deg, #730040 0%, #301cbe 100%);
-  background-clip: text;
-  color: transparent;
-  font-size: 40px;
-  line-height: 1;
-  text-align: right;
-}
 
 @keyframes movement {
   from { 
@@ -256,8 +248,4 @@ label:hover{
     transform: translateX(3760px)
   }
   
-}
-
-.listOfLang {
-  margin: none;
 }
