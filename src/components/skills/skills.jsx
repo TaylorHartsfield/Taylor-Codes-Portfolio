@@ -1,5 +1,5 @@
 import Stack from '.././assets/stack.gif';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
 import {backend} from './backend';
 import { frontend } from './frontend';
@@ -7,23 +7,40 @@ import { tools } from './tools';
 
 export default function Skills(){
 
-    const [backendStack, setBackendStack] = useState('Python')
-    const [frontendStack, setFrontendStack] = useState('React')
-    const [toolsStack, setToolsStack] = useState('Git')
+    const [backendStack, setBackendStack] = useState('PYTHON')
+    const [frontendStack, setFrontendStack] = useState('REACT')
+    const [toolsStack, setToolsStack] = useState('AWS')
 
+    let be = useRef(0)
+    let fe = useRef(0)
+    let to = useRef(0)
 
     useEffect(()=>{
         const interval = setInterval(() => {
-
-            const beRandom = Math.floor(Math.random()*{backend}.backend.length)
-            const feRandom = Math.floor(Math.random()*{frontend}.frontend.length)
-            const toolsRandom = Math.floor(Math.random()*{tools}.tools.length)
-
-            setBackendStack({backend}.backend[beRandom])
-            setFrontendStack({frontend}.frontend[feRandom])
-            setToolsStack({tools}.tools[toolsRandom])
             
-        }, 2000);
+            setBackendStack({backend}.backend[be.current])
+            setFrontendStack({frontend}.frontend[fe.current])
+            setToolsStack({tools}.tools[to.current])
+
+
+            be.current = be.current + 1
+            fe.current = fe.current + 1
+            to.current = to.current + 1
+
+            if (be.current === {backend}.backend.length) {
+                be.current = 0
+            }
+
+            if (fe.current === {frontend}.frontend.length) {
+                fe.current = 0
+            }
+
+            if (to.current === {tools}.tools.length) {
+                to.current = 0
+            }
+            
+        }, 5000);
+
         return () => clearInterval(interval);
 
 
@@ -32,11 +49,14 @@ export default function Skills(){
     return (
 
         <div className="content-container">
-        <Container className="projects">
-        <h1 className="text-center mx-auto">Tech Stack</h1>
-            <Row>
+        <Container>
+            <Row style={{
+                margin: "3%",
+            }}>
                 <Col>
+                <div className="fadeIn">
                     <div className="language">{backendStack}</div>
+                    </div>
                 </Col>
                 <Col>
                     <div className="language">{frontendStack}</div>

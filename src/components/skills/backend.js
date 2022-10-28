@@ -1,9 +1,9 @@
 
 export const backend = [
-        "Python",
-        "PostgreSQL",
-        "SQLAlchemy",
-        "SQLite",
-        "Flask",
-        "SQL"
+        "POSTGRESQL",
+        "FLASK",
+        "SQLALCHEMY",
+        "SQLITE",
+        "SQL",
+        "PYTHON",
     ];

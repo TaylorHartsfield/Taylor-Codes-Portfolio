@@ -1,11 +1,11 @@
 
 export const frontend = [
-    "Javascript",
-    "React",
     "HTML",
+    "JAVASCRIPT",
     "CSS",
     "AJAX",
-    "Jinja",
+    "JINJA2",
     "JSON",
-    "jQuery"
+    "jQUERY",
+    "REACT",
 ]

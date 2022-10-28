@@ -209,10 +209,10 @@ label:hover{
 
 
 .techstack {
-  min-height: 400px;
-  max-height: 400px;
-  min-width: 600px;
-  max-width: 600px;
+  min-height: 600px;
+  max-height: 600px;
+  min-width: 900px;
+  max-width: 900px;
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
  
@@ -234,18 +234,24 @@ label:hover{
   background: linear-gradient(180deg, #730040 0%, #301cbe 100%);
   background-clip: text;
   color: transparent;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1;
   text-align: center;
+  animation: fadeInOut ease 5s infinite;
+
 }
 
 
-@keyframes movement {
-  from { 
-    transform: translateX(-5760px)
+@keyframes fadeInOut {
+  0% {
+    opacity: 0%;
   }
-  to {
-    transform: translateX(3760px)
+  50% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0%;
   }
   
 }
+
