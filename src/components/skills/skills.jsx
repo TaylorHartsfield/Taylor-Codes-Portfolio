@@ -8,12 +8,9 @@ export default function Skills(){
 
         <div className="content-container">
         <Container className="projects">
-        <h1 className="text-center mx-auto">View My Projects</h1>
-               <h1>Tech Stack</h1>
-               <img className="techstack" src={Stack} alt="techstack gif"/>
-           
-        
-            {/* <Row style={{margin: "none"}}>
+        <h1 className="text-center mx-auto">Tech Stack</h1>
+              
+            <Row style={{margin: "none"}}>
                 <Col>
                 <ul className="listOfLang">
                     <li className="language" >Python</li>
@@ -42,7 +39,7 @@ export default function Skills(){
                 </Col>
                 <Col></Col>
                 </Row>
-            </Row> */}
+            </Row>
         </Container>
         </div>
         
