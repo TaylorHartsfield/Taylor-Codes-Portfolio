@@ -1,12 +1,6 @@
 
 export const projects = [
-    {"img": '',
-    "title": "PlayBuild Pro",
-    "description": "A full stack web application that allows users to register a show and create a virtual\
-    playbill. Show creators and actors have accounts with different levels of access. This allows actors to update\
-    headshots and bios throughout the run of a show and admin to approve actor content before publishing.",
-    "tech": "Python | React | PostgreSQL | Flask | Twilio API | Auth0 API | SQLAlchemy | HTML/CSS",
-    "url": "http://3.130.74.104/" },
+    
 
     {"img": '',
     "title": "Weather App",
@@ -19,6 +13,14 @@ export const projects = [
     "description": "A traffic light build with React Hooks.",
     "tech": "React",
     "url": "https://taylorhartsfield.github.io/trafficlight"},
+    {"img": '',
+    "title": "PlayBuild Pro",
+    "description": "A full stack web application that allows users to register a show and create a virtual\
+    playbill. Show creators and actors have accounts with different levels of access. This allows actors to update\
+    headshots and bios throughout the run of a show and admin to approve actor content before publishing.",
+    "tech": "Python | React | PostgreSQL | Flask | Twilio API | Auth0 API | SQLAlchemy | HTML/CSS",
+    "url": "http://3.130.74.104/" },
+    
     
 ]
 

@@ -72,17 +72,6 @@ object {
   border-radius: 8px;
 }
 
-.projects {
-  cursor: url('./cursors/mouse-cursor.png'), auto;
-  min-height: 600px;
-  max-height: fit-content;
-  background: #f9f8fc;
-  font-size: 1.15em;
-  align-items: center;
-  justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  border-radius: 8px;
-}
 
 p {
   color:#172c66;
@@ -112,7 +101,12 @@ a:hover{
   cursor: url('./cursors/cursor.png'), auto;
   border-radius: 8px;
 }
-
+.projectLink:hover {
+  background-color: #078080;
+  color:#fef6e4;
+  cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+}
 .navitem:hover{
   color: #078080;
   background-color: transparent;
@@ -284,34 +278,57 @@ label:hover{
 }
 
 }
-
+.cards {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap:wrap;
+}
 .card.project{
   background: #fff;
   width: 24em;
+
   border-radius: 0.6em;
   margin: 1em;
   overflow: hidden;
-  cursor: pointer;
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
   transition: all ease 200ms;
 }
+
 .card.project h2 {
+  padding: none;
   color: #222;
   margin-top: -0.2em;
   line-height: 1.4;
   font-size: 1.3em;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
   transition: all ease-in 100ms;
+  cursor: none;
+  max-width: fit-content;
 }
-
+.card.project h2:hover {
+  transform: scale(1.1);
+  cursor: url('./cursors/cursor.png'), auto;
+  background-color: #078080;
+  color:#fef6e4;
+  border-radius: 8px;
+}
 .card.project p {
   color: #777;
+  transition: all ease-in 100ms;
+  cursor: none;
 }
+
 
 .card-body.project {
   padding: 1.2em;
-}
+  cursor: url('./cursors/mouse-cursor.png'), auto;
+};
+
+.card-body.project:hover{
+  cursor:  url('./cursors/mouse-cursor.png'), auto;
+};
+
 
 .card.project h5 {
   color: #bbb;
@@ -320,23 +337,37 @@ label:hover{
   letter-spacing: 0.04em;
   margin: 1.4em 0 0 0;
   text-transform: uppercase;
+  transition: all ease-in 100ms;
+  cursor:  url('./cursors/mouse-cursor.png'), auto;
+
 }
 
 .card.project:hover {
     transform: scale(1.03);
     box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
-    color: #078080
+    color: #078080;
+    cursor:  url('./cursors/mouse-cursor.png'), auto;
   }
-  .cards {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-    flex-wrap:wrap;
+  
+
+  .card.project p:hover{
+    cursor: url('./cursors/mouse-cursor.png'), auto ;
+  }
+  .card.project h5:hover { 
+    cursor:  url('./cursors/mouse-cursor.png'), auto;
   }
 
-  .projectLinks:hover {
-    background-color: transparent;
-    color:#078080;
-    cursor: url('./cursors/cursor.png'), auto;
+  .projects {
+    cursor: url('./cursors/mouse-cursor.png'), auto;
+    min-height: 90vh;
+    width: 100%;
+    max-height: fit-content;
+    background: #f9f8fc;
+    font-size: 1.15em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     border-radius: 8px;
+    margin: 8vh;
+    margin-top: 10vh;
   }
