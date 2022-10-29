@@ -49,31 +49,30 @@ export default function Skills(){
     return (
 
         <div className="content-container">
-        <Container>
-            <Row style={{
-                margin: "3%",
-            }}>
-                <Col>
-                <div className="fadeIn">
-                    <div className="language">{backendStack}</div>
-                    </div>
-                </Col>
-                <Col>
-                    <div className="language">{frontendStack}</div>
-                </Col>
-                <Col>
-                    <div className="language">{toolsStack}</div>
-                </Col>
-
+            <Container>  
+                <Row>
+                    <Col xl={6} l={6} md={6} s={12} xs={12}>
+                       
+                        <div className="fullstack">
+                        <Row>
+                            <div className="language">{backendStack}</div>
+                        </Row>
+                        <Row style={{
+                            margin: "5%"
+                        }}>
+                            <div className="language">{frontendStack}</div>
+                        </Row>
+                        <Row>
+                            <div className="language">{toolsStack}</div>
+                         </Row>
+                        </div>
+                    </Col>
+                    <Col xl={6} l={6} md={6} s={12} xs={12}>
+                        <img className="techstack" src={Stack} alt="techstack gif"/>
+                    </Col>
+                    
                 </Row>
-                    <Row>
-                        <Col></Col>
-                        <Col>
-                            <img className="techstack" src={Stack} alt="techstack gif"/>
-                        </Col>
-                        <Col></Col>
-                    </Row>
-        </Container>
+            </Container>
         </div>
         
     )

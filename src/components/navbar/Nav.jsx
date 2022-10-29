@@ -14,9 +14,10 @@ export default function NB(){
             <li style={{
                 padding:".5em",
                 textAlign:"right",
+                
             }}
             className={isActive ? "active" : ""}>
-                <Link to={to} {...props}>
+                <Link className="navitem" to={to} {...props}>
                     {children}
                 </Link>
             </li>
@@ -34,7 +35,6 @@ export default function NB(){
                 </Navbar.Brand>
                             <Nav className="me-auto">
                                 <CustomLink to="/about">About</CustomLink>
-                                <CustomLink to="/skills">Skills</CustomLink>
                                 <CustomLink to="/projects">Projects</CustomLink>
                                 <CustomLink to="/contact">Contact</CustomLink>
                                 <CustomLink to="/resume">Resume</CustomLink>

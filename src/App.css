@@ -39,13 +39,15 @@ object {
 .content-container{
   height: 90vh;
   display: flex;
+  margin-bottom: auto;
   align-items: center;
   justify-content: center;
 }
 
 .about {
   cursor: url('./cursors/mouse-cursor.png'), auto;
-  min-height: 600px;
+  min-height: auto;
+  width: 100%;
   max-height: fit-content;
   background: #f9f8fc;
   font-size: 1.15em;
@@ -102,8 +104,21 @@ a {
 }
 
 a:hover{
+  background-color: #078080;
+  color:#fef6e4;
   cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+}
+
+.navitem:hover{
   color: #078080;
+  background-color: transparent;
+}
+.hb:hover {
+  background-color: black;
+  cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+  
 }
 
 i:hover{
@@ -209,12 +224,11 @@ label:hover{
 
 
 .techstack {
-  min-height: 600px;
-  max-height: 600px;
-  min-width: 900px;
-  max-width: 900px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 3%;
  
 }
 
@@ -234,13 +248,18 @@ label:hover{
   background: linear-gradient(180deg, #730040 0%, #301cbe 100%);
   background-clip: text;
   color: transparent;
-  font-size: 60px;
+  font-size: 400%;
   line-height: 1;
   text-align: center;
-  animation: fadeInOut ease 5s infinite;
-
+  animation: fadeInOut linear 5s infinite;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
+.fullstack {
+  width: 100%;
+  height: auto;
+}
 
 @keyframes fadeInOut {
   0% {
@@ -255,3 +274,10 @@ label:hover{
   
 }
 
+@keyframes textclip {
+  to {
+
+    background-position: 200% center
+}
+
+}

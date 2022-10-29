@@ -1,12 +1,9 @@
 import Name from "./name";
 import {Container, Row, Col} from 'react-bootstrap';
 import Headshot from '../assets/headshot.jpeg';
+import LeanrningCounter from "./learningCounter";
 
 export default function Homepage(){
-    
-    const beginning = new Date("January 20, 2022");
-    const current = new Date()
-    const days = Math.floor(((current - beginning)/(1000*60*60*24)))
 
     return (
        <div className="homepage-container">
@@ -44,7 +41,7 @@ export default function Homepage(){
                             fontSize: "4vh",
                             paddingBottom: "2em"}}>
                         Full Stack Developer</h4>
-                        <p className="text-center text-sm-start" style={{display:"inline"}}>It's been <bold style={{color:"#078080"}}>{days} days</bold> since I wrote my first 'Hello World'!</p>
+                        <p className="text-center text-sm-start" style={{display:"inline"}}>It's been <bold style={{color:"#078080"}}>{<LeanrningCounter />} days</bold> since I wrote my first 'Hello World'!</p>
                     </Col>
                     </Row>
             
