@@ -1,6 +1,12 @@
 import { Container } from "react-bootstrap";
+import { useState } from "react";
+import ProjectCard from "./projectcard";
+import { projects } from "./allprojects";
 
 export default function Projects(){
+
+        const [projects, allProjects] = useState()
+        
         return (
             <div className="content-container">
               <Container className="projects">
