@@ -66,7 +66,8 @@ export default function About(){
           <Skills />
         </Container>
       </div>
-        </>
+        </div>
+
        
        
     )
