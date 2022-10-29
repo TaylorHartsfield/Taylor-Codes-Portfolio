@@ -1,6 +1,5 @@
 import TaylorResume from "../assets/TaylorResume.pdf";
 
-
 export default function Resume(){
 
     return(
