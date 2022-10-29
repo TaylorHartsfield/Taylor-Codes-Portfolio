@@ -12,7 +12,7 @@ export default function About(){
     }
 
     return (
-      <>
+      <div className="fullcontainer">
       <div className="content-container">
        <Row>
          <Col></Col>
@@ -50,7 +50,7 @@ export default function About(){
               style={{
                 marginBottom:"0",
               }}>
-                <bold>TECHNOLOGIES</bold></button> and some <a href="/projects">PROJECTS</a>. <br />
+                <bold>TECHNOLOGIES</bold></button>.
               Thanks for stopping by! 💜
             </p>
             </Container>
