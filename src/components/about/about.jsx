@@ -11,10 +11,11 @@ export default function About(){
       tech.current?.scrollIntoView({behavior: "smooth"})
     }
 
+
     return (
-      <div className="fullcontainer">
+     <>
       <div className="content-container">
-       <Row>
+       
          <Col></Col>
          <Col xl={9} l={9} md={12} s={12} xs={12}>
          <Container className="about">
@@ -50,24 +51,33 @@ export default function About(){
               style={{
                 marginBottom:"0",
               }}>
-                <bold>TECHNOLOGIES</bold></button>.
+                <bold>TECHNOLOGIES</bold>
+              </button> and <a style={{padding: ".2em"}}href="https://taylorhartsfield.github.io/#/projects">PROJECTS</a>. <br/>
+              
               Thanks for stopping by! 💜
             </p>
             </Container>
             </Col>
             <Col></Col> 
           
-            </Row>
       
+          
        
       </div>
-      <div className="content-container">
-        <Container ref={tech}>
-          <Skills />
-        </Container>
-      </div>
-        </div>
 
+      <div className="content-container">
+        <Container 
+        style={{margin: "3em"}}
+        ref={tech}>
+          <Col></Col>
+          <Col>
+          <Skills />
+          </Col>
+          <Col></Col>
+        </Container>
+</div>
+  
+      </>
        
        
     )

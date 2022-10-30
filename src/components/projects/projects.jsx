@@ -5,6 +5,7 @@ import ProjectCard from "./projectcard";
 export default function Projects(){
     
         return (
+        
             <div className="content-container"> 
               <Container className="projects">
               <h3 className="text-center mx-auto"
@@ -27,6 +28,7 @@ export default function Projects(){
            
               </Container>
               </div>
+
              
           )
     

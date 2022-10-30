@@ -1,8 +1,11 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+import NB from './components/navbar/Nav';
 import Homepage from './components/homepage/homepage';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
-import NB from './components/navbar/Nav';
 import Projects from './components/projects/projects';
 import {Route, Routes} from "react-router-dom";
 import Resume from './components/resume/resume';
@@ -16,8 +19,9 @@ function App() {
 
   return ( 
     <>
-    <NB/>
+    
     <Container>
+    <NB/>
           <Routes>
             <Route path="/" element= {<Homepage />} />
             <Route path="/about" element= {<About />} />

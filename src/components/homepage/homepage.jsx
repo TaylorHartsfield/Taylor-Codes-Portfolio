@@ -23,12 +23,14 @@ export default function Homepage(){
                             <img src={Headshot} alt="headshot" 
                             style={{
                                 borderRadius: "50%",
-                                width: "400px",
-                                height: "400px",
+                                width: "auto",
+                                maxWidth: "400px",
+                                height: "auto",
+                                maxHeight: "400px",
                                 border: "solid",
                                 borderColor: "#a786df",
                                 borderWidth: "10px",
-                                boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
+                                dropShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
                             }}/>
                     </Col>
                     <Col xs={{span: 12, order:1}} 

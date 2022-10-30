@@ -1,7 +1,8 @@
 import {Link, useMatch, useResolvedPath} from "react-router-dom";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import menu from '../assets/menu.png';
 
 
 export default function NB(){
@@ -14,6 +15,7 @@ export default function NB(){
             <li style={{
                 padding:".5em",
                 textAlign:"right",
+                color: "#078080"
                 
             }}
             className={isActive ? "active" : ""}>
@@ -25,22 +27,29 @@ export default function NB(){
     }
 
     return (
-      <>
-        <Navbar expand="sm">
-           <Container>
-                <Navbar.Brand>
-                    <Link to="/" className="site-title">
-                        Taylor Codes
-                    </Link> 
-                </Navbar.Brand>
-                            <Nav className="me-auto">
+
+      <Navbar expand="lg">
+        <Container>
+            <Navbar.Brand className="brand" href="https://taylorhartsfield.github.io">TAYLOR CODES</Navbar.Brand>
+                <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Item className="nav-item">
                                 <CustomLink to="/about">About</CustomLink>
+                            </Nav.Item>
+                            <Nav.Item className="nav-item">
                                 <CustomLink to="/projects">Projects</CustomLink>
+                                </Nav.Item>
+                            <Nav.Item className="nav-item">
                                 <CustomLink to="/contact">Contact</CustomLink>
+                                </Nav.Item>
+                            <Nav.Item className="nav-item">
                                 <CustomLink to="/resume">Resume</CustomLink>
-                            </Nav>
-                    </Container>
-        </Navbar>
-    </>
+                            </Nav.Item>
+                        </Nav>
+            </Navbar.Collapse>
+            </Container>
+    </Navbar>
+
     )
 }
