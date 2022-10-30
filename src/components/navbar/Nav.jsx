@@ -2,7 +2,7 @@ import {Link, useMatch, useResolvedPath} from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import menu from '../assets/menu.png';
+
 
 
 export default function NB(){

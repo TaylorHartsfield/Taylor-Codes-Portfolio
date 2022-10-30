@@ -5,9 +5,9 @@ import ProjectCard from "./projectcard";
 export default function Projects(){
     
         return (
-        
+        <>
             <div className="content-container"> 
-              <Container className="projects">
+              <Container className="about">
               <h3 className="text-center mx-auto"
                style={{
                 paddingTop: "1.5%"
@@ -28,7 +28,7 @@ export default function Projects(){
            
               </Container>
               </div>
-
+              </>
              
           )
     

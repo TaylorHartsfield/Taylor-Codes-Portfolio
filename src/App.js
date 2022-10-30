@@ -11,15 +11,14 @@ import {Route, Routes} from "react-router-dom";
 import Resume from './components/resume/resume';
 import {Container} from 'react-bootstrap';
 import Skills from './components/skills/skills';
-
+import Footer from './components/footer/Footer';
 
 
 function App() {
 
 
   return ( 
-    <>
-    
+<>
     <Container>
     <NB/>
           <Routes>
@@ -30,8 +29,12 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-      </Container>
+   
+    </Container>
+    <Container><Footer /></Container>
+    
     </>
+  
   )
 }
 

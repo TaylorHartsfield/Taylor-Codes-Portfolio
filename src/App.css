@@ -21,6 +21,7 @@ body {
   font-size: 1.15em;
   align-items: center;
   justify-content: center;
+  margin-bottom: 
 }
 
 object {
@@ -97,6 +98,7 @@ h4 {
 
 a {
   color: #0e172c;
+  text-decoration: none;
 }
 
 a:hover{
@@ -104,6 +106,23 @@ a:hover{
   color:#fef6e4;
   cursor: url('./cursors/cursor.png'), auto;
   border-radius: 8px;
+}
+
+.videoLink {
+  text-decoration: none;
+  color:#078080;
+}
+
+.videoLink:hover{
+  background-color: #078080;
+  color:#fef6e4;
+  cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+  padding: .3em
+}
+
+.projectLink{
+  text-decoration: none;
 }
 .projectLink:hover {
   background-color: #078080;
@@ -123,12 +142,30 @@ a:hover{
   
 }
 .hb:hover {
-  background-color: black;
+  background-color: #078080;
+  color:#fef6e4;
   cursor: url('./cursors/cursor.png'), auto;
   border-radius: 8px;
-  
+  padding: .3em
+}
+.projectButton{
+  text-decoration: none;
+  color:#078080;
 }
 
+a.projectButton:hover{
+  padding: .3em
+}
+.projectButton:hover{
+  background-color: #078080;
+  color:#fef6e4;
+  cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+}
+.hb{
+  text-decoration: none;
+  color:#078080;
+}
 i:hover{
   opacity: 0.6;
   color: #078080;
@@ -397,7 +434,6 @@ label:hover{
     height: 30px;
   
   }
-
   .toggler:hover{
     background-color: #f582ae;
     width:auto;
@@ -417,10 +453,37 @@ label:hover{
   cursor: url('../src/cursors/cursor.png'), auto;
 }
 
-
 .brand:hover {
-  background-color: #078080 0.5;
+  background-color: #078080;
   color:#fef6e4;
   cursor: url('./cursors/cursor.png'), auto;
   border-radius: 8px;
 }
+
+.footer {
+  padding: .1em;
+  background-color: #76B2B4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ 
+}
+
+.footeritem {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: .8em;
+}
+
+.footeritem:hover{
+  background-color: #F582AE;
+  cursor: url('./cursors/cursor.png'), auto;
+  border-radius: 8px;
+}
+
+@media all and (max-width: 768px){
+  .footer {display: none;}
+};
