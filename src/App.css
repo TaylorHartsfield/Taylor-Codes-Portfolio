@@ -21,12 +21,28 @@ body {
   font-size: 1.15em;
   align-items: center;
   justify-content: center;
-  margin-bottom: 
-}
+  margin-bottom: 1em;
+};
 
 object {
   height: 90vh;
   width: 90vw;
+}
+.headshot {
+  border-radius: 50%;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 400px;
+  border: solid;
+  border-color: #a786df;
+  border-width: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.socials{
+  text-align: center;
+  margin: 1em;
 }
 .fullcontainer {
   max-width:auto;
@@ -35,12 +51,23 @@ object {
 }
 
 .homepage-container {
-  max-width: 1000px;
-  padding: 0 1em;
-  margin: 0 auto;
-  overflow: hidden;
+  min-height: 300px;
+  max-width: 100%;
+  display: flex;
+  margin: 3em 8em;
+  align-items: center;
+  justify-content: center;
 }
-
+.homepage {
+  cursor: url('./cursors/mouse-cursor.png'), auto;
+  max-height: 600px;
+  min-width: 300px;
+  max-height: fit-content;
+  font-size: 1.15em;
+  align-items: center;
+  justify-content: center;
+  padding: 8em;
+}
 .content-container{
   min-height: 300px;
   max-width: 100%;
@@ -474,8 +501,8 @@ label:hover{
   height: 50px;
   width: 50px;
   padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: .8em;
+  margin: 0 1em;
+  
 }
 
 .footeritem:hover{
@@ -487,3 +514,5 @@ label:hover{
 @media all and (max-width: 768px){
   .footer {display: none;}
 };
+
+
