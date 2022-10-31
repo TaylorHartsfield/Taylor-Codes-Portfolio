@@ -39,10 +39,13 @@ export default function NB(){
                             </Nav.Item>
                             <Nav.Item className="nav-item">
                                 <CustomLink to="/projects">Projects</CustomLink>
-                                </Nav.Item>
+                            </Nav.Item>
+                            <Nav.Item className="nav-item">
+                                <CustomLink to="/dolly">WWDD?</CustomLink>
+                            </Nav.Item>
                             <Nav.Item className="nav-item">
                                 <CustomLink to="/contact">Contact</CustomLink>
-                                </Nav.Item>
+                            </Nav.Item>
                             <Nav.Item className="nav-item">
                                 <CustomLink to="/resume">Resume</CustomLink>
                             </Nav.Item>

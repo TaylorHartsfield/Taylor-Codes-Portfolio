@@ -12,6 +12,7 @@ import Resume from './components/resume/resume';
 import {Container} from 'react-bootstrap';
 import Skills from './components/skills/skills';
 import Footer from './components/footer/Footer';
+import DollyChat from './components/dolly/Dolly';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/contact" element= {<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/dolly" element={<DollyChat />} />
           </Routes>
    
     </Container>

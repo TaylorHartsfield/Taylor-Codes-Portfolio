@@ -1,0 +1,19 @@
+.dollyButton {
+    border-style: solid;
+    border-radius: 8px;
+    padding: .2em;
+    max-width: 15em;
+  }
+  
+.dollyButton:hover {
+    cursor: url('../../cursors/cursor.png'), auto;
+}
+.dollyQuotes {
+    font-family: cursive;
+    font-size: 5vh;
+    text-align: center;
+}
+ /* Only show the "Thanks Dolly" -back to top- button when screen is smaller and needs to scroll */
+@media all and (min-width: 1000px){
+    .dollyButton.top {display: none;}
+  };
