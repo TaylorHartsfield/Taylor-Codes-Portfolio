@@ -7,7 +7,8 @@ export default function Projects(){
         return (
         <>
             <div className="content-container"> 
-              <Container className="about">
+              <Container className="about"
+              style={{marginBottom: "3em"}}>
               <h3 className="text-center mx-auto"
                style={{
                 paddingTop: "1.5%"

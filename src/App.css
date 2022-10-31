@@ -21,13 +21,13 @@ body {
   font-size: 1.15em;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1em;
 };
 
 object {
-  height: 90vh;
-  width: 90vw;
+  height: 800px;
+  width: 900px;
 }
+
 .headshot {
   border-radius: 50%;
   width: auto;
@@ -367,7 +367,6 @@ label:hover{
 .card.project{
   background: #fff;
   width: 24em;
-
   border-radius: 0.6em;
   margin: 1em;
   overflow: hidden;
@@ -450,6 +449,7 @@ label:hover{
     border-radius: 8px;
     margin: 8vh;
     margin-top: 10vh;
+
   }
 
 
@@ -489,7 +489,7 @@ label:hover{
 
 .footer {
   padding: .1em;
-  background-color: #76B2B4;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   left: 0;
