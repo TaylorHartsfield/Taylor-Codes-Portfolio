@@ -20,6 +20,15 @@ export const projects = [
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io"},
 
     {"img": '',
+    "title": "What Would Dolly Do?",
+    "description": "I created my own Dolly Parton Quotes API that allows you to get some words of wisdom\
+    from the great and inspiring, Dolly Parton! This is hosted on my site. You can check it out at the WWDD\
+    tab of the site.",
+    "tech": "PReact",
+    "url": "https://taylorhartsfield.github.io/#/dolly",
+    "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/dolly"},
+
+    {"img": '',
     "title": "Weather App",
     "description": "A simple weather app that allows users to transition between C° and F°." ,
     "tech": "React | OpenWeather API",
@@ -33,6 +42,8 @@ export const projects = [
     "tech": "React",
     "url": "https://taylorhartsfield.github.io/trafficlight",
 "github": "https://github.com/TaylorHartsfield/trafficlight"},
+
+
     
     
     

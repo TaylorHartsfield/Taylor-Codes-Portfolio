@@ -3,7 +3,8 @@
     border-radius: 8px;
     padding: .2em;
     max-width: 15em;
-  }
+    border-color:#078080,
+    }
   
 .dollyButton:hover {
     cursor: url('../../cursors/cursor.png'), auto;
@@ -13,7 +14,9 @@
     font-size: 5vh;
     text-align: center;
 }
+
  /* Only show the "Thanks Dolly" -back to top- button when screen is smaller and needs to scroll */
 @media all and (min-width: 1000px){
-    .dollyButton.top {display: none;}
+    .dollyButton.top {
+        display: none;}
   };
