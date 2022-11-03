@@ -3,7 +3,8 @@
     border-radius: 8px;
     padding: .2em;
     max-width: 15em;
-    border-color:#078080,
+    border-color:#078080;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
   
 .dollyButton:hover {
