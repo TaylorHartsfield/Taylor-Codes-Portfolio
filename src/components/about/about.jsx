@@ -38,8 +38,8 @@ export default function About(){
                 <li>Coffeeholic</li>
                 <li>Recovering Theatre Major</li>
               </ul>
-              One of my earliest memories of the internet is my dad showing me this <a className="videoLink" href="https://www.youtube.com/watch?v=GMgsFZ4rkEI"><strong>video</strong></a>. ⚠️<br/>
-              But not even that could scare me away from my interest in computers.<br/>
+              One of my earliest memories of the internet is my dad showing me this <a className="videoLink" href="https://www.youtube.com/watch?v=GMgsFZ4rkEI" target="_blank"><strong>video</strong></a>. ⚠️<br/>
+              But not even that could scare me away from my love for computers.<br/>
               It took me over 20 years to realize that I could combine my creative passions with my love for 
               problem solving and become a Software Engineer.<br/>
               I have spent the last <em><strong style={{color: "#078080"}}>{<LeanrningCounter />}</strong></em> days learning to 
