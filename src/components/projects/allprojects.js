@@ -24,9 +24,18 @@ export const projects = [
     "description": "I created my own Dolly Parton Quotes API that allows you to get some words of wisdom\
     from the great and inspiring, Dolly Parton! This is hosted on my site. You can check it out at the WWDD\
     tab of the site.",
-    "tech": "PReact",
+    "tech": "React",
     "url": "https://taylorhartsfield.github.io/#/dolly",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/dolly"},
+
+    {"img": '',
+    "title": "SoundBar",
+    "description": "A feature of my portfolio that plays music from a playlist I upload. This was fun to make to give my portfolio more\
+    personalization and share my favorite artists with visitors. All music has been purchased and approved for personal use, but please check out FLETCHER\
+    to get more info on the artist! 🏳️‍🌈",
+    "tech": "React",
+    "url": "https://taylorhartsfield.github.io",
+    "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/musicplayer"},
 
     {"img": '',
     "title": "Weather App",
