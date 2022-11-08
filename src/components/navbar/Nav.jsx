@@ -12,12 +12,7 @@ export default function NB(){
         const isActive = useMatch({path: resolvedPath.pathname, end:true})
     
         return(
-            <li style={{
-                padding:".5em",
-                textAlign:"right",
-                color: "#078080"
-                
-            }}
+            <li
             className={isActive ? "active" : ""}>
                 <Link className="navitem" to={to} {...props}>
                     {children}

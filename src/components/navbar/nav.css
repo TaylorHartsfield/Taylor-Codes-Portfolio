@@ -31,7 +31,7 @@
 .brand{
     cursor: url('../../cursors/mouse-cursor.png'), auto;
     list-style:none;
-    padding: none;
+    padding: 0;
 }
 .navbar-toggler-icon {
     cursor: url('../../cursors/cursor.png'), auto;
@@ -44,7 +44,6 @@
   
 .navitem:hover{
     cursor: url('../../cursors/cursor.png'), auto;
-    transform: scaleY(1.1);
     color: #078080;
     background-color: transparent;
   }
@@ -53,6 +52,7 @@
     cursor: url('../../cursors/cursor.png'), auto;
     color:#001858;
     text-decoration: none;
+    padding:.5em;
   }
   .toggler{
     background-image: url('../assets/menu.png');    
