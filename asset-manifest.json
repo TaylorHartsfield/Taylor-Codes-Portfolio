@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6ec8ff3a.css",
-    "main.js": "/static/js/main.736dc6bc.js",
+    "main.js": "/static/js/main.762382bc.js",
     "static/media/Her Body Is Bible.mp3": "/static/media/Her Body Is Bible.25d07006c44a79c757ad.mp3",
     "static/media/Becky's So Hot.mp3": "/static/media/Becky's So Hot.ba66f156aaa4cbe36cd8.mp3",
     "static/media/Guess We Lied.mp3": "/static/media/Guess We Lied.bd45849bd8c0900b9836.mp3",
@@ -20,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/index.html",
     "main.6ec8ff3a.css.map": "/static/css/main.6ec8ff3a.css.map",
-    "main.736dc6bc.js.map": "/static/js/main.736dc6bc.js.map"
+    "main.762382bc.js.map": "/static/js/main.762382bc.js.map"
   },
   "entrypoints": [
     "static/css/main.6ec8ff3a.css",
-    "static/js/main.736dc6bc.js"
+    "static/js/main.762382bc.js"
   ]
 }
