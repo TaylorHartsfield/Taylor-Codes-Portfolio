@@ -46,7 +46,7 @@ export default function About(){
               code through self-education and completing an accelerated full stack
               Software Engineering Program at <strong><a className="hb" href="https://hackbrightacademy.com/">Hackbright Academy</a>.</strong><br/>
               My dream is to build software that leaves a positive impact on the world both at a local and global scale.<br />
-              Currently, I am focused on building with <bold>Python</bold> and <bold>React</bold>. While you're here, check out all of my current <button 
+              Currently, I am focused on building with <strong>Python</strong> and <strong>React</strong>. While you're here, check out all of my current <button 
               onClick={handleOnClick}
               className="projectButton">
                 <strong>TECHNOLOGIES</strong>

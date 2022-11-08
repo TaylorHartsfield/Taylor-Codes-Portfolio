@@ -13,7 +13,7 @@ export default function MusicPlayer(){
 
     const ref = useRef(null)
 
-    const [play, setPlay] = useState(true)
+    const [play, setPlay] = useState(false)
 
     function playNext() {
         let nowPlaying = songsRef.current[0];
