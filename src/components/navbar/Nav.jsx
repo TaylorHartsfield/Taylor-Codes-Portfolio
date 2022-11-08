@@ -2,8 +2,7 @@ import {Link, useMatch, useResolvedPath} from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-
-
+import MusicPlayer from "../musicplayer/MusicPlayer";
 
 export default function NB(){
 
@@ -30,7 +29,7 @@ export default function NB(){
 
       <Navbar expand="lg">
         <Container>
-            <Navbar.Brand className="brand" href="https://taylorhartsfield.github.io">TAYLOR CODES</Navbar.Brand>
+            <Navbar.Brand className="brand" href="/">TAYLOR CODES</Navbar.Brand>
                 <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
@@ -50,6 +49,7 @@ export default function NB(){
                                 <CustomLink to="/resume">Resume</CustomLink>
                             </Nav.Item>
                         </Nav>
+                        <MusicPlayer />        
             </Navbar.Collapse>
             </Container>
     </Navbar>
