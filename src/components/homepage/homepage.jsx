@@ -1,4 +1,3 @@
-import Name from "./name";
 import {Container, Row, Col} from 'react-bootstrap';
 import Headshot from '../assets/headshot.jpeg';
 import LeanrningCounter from "./learningCounter";
@@ -29,20 +28,32 @@ export default function Homepage(){
        <div className="homepage-container">
             <Container className="homepage">
                 <Row>
-                    <Col xs={{span: 12}} 
+                    <Col xs={{span: 12, order: 2}} 
                         sm={{span: 12, order:2 }} 
                         md={{span: 12, order:2 }} 
                         l={{span: 6, order: 1 }} 
-                        xl={{span: 6, order: 1 }}>
-                        <img className="headshot" src={Headshot} alt="headshot"/>
+                        xl={{span: 6, order: 1 }}
+                        style={{
+                            textAlign: "center"}}>
+                        <img className="headshot" src={Headshot} alt="headshot"
+                        style={{
+                            width: "70vw",
+                            height: "70vh"
+                           }}/>
                     </Col>
                     <Col xs={{span: 12, order:1}} 
                          sm={{span: 12, order:1 }} 
                          md={{span: 12, order:1 }} 
                          l={{span: 6, order:2 }} 
                          xl={{span: 6, order:2 }}
+                         style={{
+                            textAlign: "center"}}
                         >
-                        <Name />
+                         <h1
+                            style={{fontSize: "6vh",
+                                    textAlign:"center"}}>
+                            Taylor Hartsfield
+                        </h1>
                         <h4 style={{
                             textAlign: "center",
                             fontSize: "4vh",
@@ -58,10 +69,10 @@ export default function Homepage(){
                         since I wrote my first 'Hello World'!</p>
                         </div>
                         <div className="socials">
-                            <img className="footeritem" src={Github} onClick={handleGithub}/>
-                            <img className="footeritem" src={LinekdIn} onClick={handleLinkedIn}/>
-                            <img className="footeritem" src={Instagram} onClick={handleInstagram}/>
-                            <img className="footeritem" src={YouTube} onClick={handleYouTube}/>
+                            <img className="footeritem" src={Github} alt="github" onClick={handleGithub}/>
+                            <img className="footeritem" src={LinekdIn}  alt="linkedin" onClick={handleLinkedIn}/>
+                            <img className="footeritem" src={Instagram}   alt="instagram" onClick={handleInstagram}/>
+                            <img className="footeritem" src={YouTube}   alt="youtube" onClick={handleYouTube}/>
                         </div>
 
                       
