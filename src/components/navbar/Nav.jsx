@@ -1,4 +1,5 @@
 import {Link, useMatch, useResolvedPath} from "react-router-dom";
+import './nav.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
@@ -29,7 +30,10 @@ export default function NB(){
 
       <Navbar expand="lg">
         <Container>
-            <Navbar.Brand className="brand" href="/">TAYLOR CODES</Navbar.Brand>
+            <Navbar.Brand className="brand">
+                <CustomLink to="/"
+                style={{style:"none"}}>TAYLOR CODES</CustomLink>
+            </Navbar.Brand>
                 <Navbar.Toggle className="toggler" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

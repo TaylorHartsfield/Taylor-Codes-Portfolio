@@ -157,17 +157,7 @@ a:hover{
   cursor: url('./cursors/cursor.png'), auto;
   border-radius: 8px;
 }
-.navitem:hover{
-  transform: scale(1.1);
-  color: #078080;
-  background-color: transparent;
-}
 
-.navitem{
-  color:#001858;
-  text-decoration: none;
-  
-}
 .hb:hover {
   background-color: #078080;
   color:#fef6e4;
@@ -452,40 +442,6 @@ label:hover{
 
   }
 
-
-  .toggler{
-    background-image: url('./components/assets/menu.png');    
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-  
-  }
-  .toggler:hover{
-    background-color: #f582ae;
-    width:auto;
-    height: auto;
-    border: none;
-    width: 30px;
-    height: 30px;
-    cursor: url('../src/cursors/mouse-cursor.png'), auto;
-  }
-
-.navbar-toggler-icon {
-  cursor: url('../src/cursors/cursor.png'), auto;
-}
-
-.navbar-toggler-icon:hover {
-  border: none;
-  cursor: url('../src/cursors/cursor.png'), auto;
-}
-
-.brand:hover {
-  background-color: #078080;
-  color:#fef6e4;
-  cursor: url('./cursors/cursor.png'), auto;
-  border-radius: 8px;
-}
 
 .footer {
   padding: .1em;

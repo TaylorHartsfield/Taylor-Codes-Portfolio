@@ -33,10 +33,10 @@ export default function About(){
               <ul>
                 <li style={{
                 margin: "none",
-              }}>Wife</li>
-                <li>Dog Mom</li>
-                <li>Coffeeholic</li>
-                <li>Recovering Theatre Major</li>
+              }}>Wife 🏳️‍🌈</li>
+                <li>Dog Mom 🐶</li>
+                <li>Coffeeholic ☕️</li>
+                <li>Recovering Theatre Major 🎭</li>
               </ul>
               One of my earliest memories of the internet is my dad showing me this <a className="videoLink" href="https://www.youtube.com/watch?v=GMgsFZ4rkEI" target="_blank"><strong>video</strong></a>. ⚠️<br/>
               But not even that could scare me away from my love for computers.<br/>

@@ -1,0 +1,74 @@
+.navbar{
+    cursor: url('../../cursors/cursor.png'), auto;
+}
+
+.navbar:hover{
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+}
+
+.nav{
+    cursor: url('../../cursors/cursor.png'), auto;
+}
+
+.nav:hover{
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+}
+
+.li {
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+}
+
+.li:hover {
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+}
+.brand:hover {
+    background-color: transparent;
+    color:#fef6e4;
+    cursor: url('../../cursors/cursor.png'), auto;
+    border: none;
+  }
+
+.brand{
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+    list-style:none;
+    padding: none;
+}
+.navbar-toggler-icon {
+    cursor: url('../../cursors/cursor.png'), auto;
+  }
+  
+  .navbar-toggler-icon:hover {
+    border: none;
+    cursor: url('../../cursors/cursor.png'), auto;
+  }
+  
+.navitem:hover{
+    cursor: url('../../cursors/cursor.png'), auto;
+    transform: scaleY(1.1);
+    color: #078080;
+    background-color: transparent;
+  }
+  
+ .navitem{
+    cursor: url('../../cursors/cursor.png'), auto;
+    color:#001858;
+    text-decoration: none;
+  }
+  .toggler{
+    background-image: url('../assets/menu.png');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  
+  }
+  .toggler:hover{
+    background-color: #f582ae;
+    width:auto;
+    height: auto;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: url('../../cursors/mouse-cursor.png'), auto;
+  }
+
