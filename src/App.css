@@ -265,8 +265,6 @@ label{
   cursor: url('./cursors/cursor.png'), auto;
 }
 
-
-
 input:focus {
   outline:none !important;
 }
