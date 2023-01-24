@@ -16,8 +16,8 @@ export const projects = [
     This project is hosted on Github Pages. I like to share fun things about myself and show off my personailty through the design\
     with fun colors and effects." ,
     "tech": "React",
-    "url": "https://taylorhartsfield.github.io",
-    "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io"},
+    "url": "https://taylorcodes.com",
+    "github": "https://github.com/TaylorHartsfield/Taylor-Codes-Portfolio"},
 
     {"img": '',
     "title": "Bodhi PM Website",
