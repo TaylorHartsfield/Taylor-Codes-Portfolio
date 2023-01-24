@@ -11,13 +11,20 @@ export const projects = [
  },
 
     {"img": '',
-    "title": " Personal Portfolio",
+    "title": "Personal Portfolio",
     "description": "A place for my personal portfolio to live online. This is an ongoing project that is updated frequently.\
     This project is hosted on Github Pages. I like to share fun things about myself and show off my personailty through the design\
     with fun colors and effects." ,
     "tech": "React",
     "url": "https://taylorhartsfield.github.io",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io"},
+
+    {"img": '',
+    "title": "Bodhi PM Website",
+    "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
+    "tech": "React",
+    "url": "http://bodhipm.com/",
+    "github": "https://github.com/TaylorHartsfield/BodhiPM"},
 
     {"img": '',
     "title": "What Would Dolly Do?",
