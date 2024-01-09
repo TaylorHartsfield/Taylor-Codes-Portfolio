@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e0c69f5.css",
-    "main.js": "/static/js/main.2ab86a11.js",
+    "main.js": "/static/js/main.045de072.js",
     "static/media/Her Body Is Bible.mp3": "/static/media/Her Body Is Bible.25d07006c44a79c757ad.mp3",
     "static/media/Becky's So Hot.mp3": "/static/media/Becky's So Hot.ba66f156aaa4cbe36cd8.mp3",
     "static/media/Guess We Lied.mp3": "/static/media/Guess We Lied.bd45849bd8c0900b9836.mp3",
@@ -10,7 +10,7 @@
     "static/media/headshot.jpeg": "/static/media/headshot.fe13a8b05f7d5b260bb1.jpeg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/dolly.png": "/static/media/dolly.abd26e2cb947b7623a03.png",
-    "static/media/TaylorResume.pdf": "/static/media/TaylorResume.b9fc577132611ba2acd0.pdf",
+    "static/media/TH2024Resume.pdf": "/static/media/TH2024Resume.099e14fbeee6973b1c5f.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
@@ -20,10 +20,10 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/index.html",
     "main.5e0c69f5.css.map": "/static/css/main.5e0c69f5.css.map",
-    "main.2ab86a11.js.map": "/static/js/main.2ab86a11.js.map"
+    "main.045de072.js.map": "/static/js/main.045de072.js.map"
   },
   "entrypoints": [
     "static/css/main.5e0c69f5.css",
-    "static/js/main.2ab86a11.js"
+    "static/js/main.045de072.js"
   ]
 }
