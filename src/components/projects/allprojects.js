@@ -23,7 +23,7 @@ export const projects = [
     "title": "Bodhi PM Website",
     "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
     "tech": "React",
-    "url": "http://bodhipm.com/",
+    "url": "https://taylorhartsfield.github.io/BodhiPM",
     "github": "https://github.com/TaylorHartsfield/BodhiPM"},
 
     {"img": '',
