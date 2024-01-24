@@ -20,11 +20,11 @@ export const projects = [
     "github": "https://github.com/TaylorHartsfield/Taylor-Codes-Portfolio"},
 
     {"img": '',
-    "title": "Bodhi PM Website",
-    "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
-    "tech": "React",
-    "url": "http://bodhipm.com/",
-    "github": "https://github.com/TaylorHartsfield/BodhiPM"},
+    "title": "Catch-A-Crunk",
+    "description": "A 2D falling Object Game called that features myself as the basket, and my wife and our dog as the falling objects." ,
+    "tech": "Python | Pygame",
+    "url": "https://youtu.be/ZgbNgX_oYX8?si=uhDBgEIlX1ykbwRP",
+    "github": "https://github.com/TaylorHartsfield/Catch_A_Crunk_Final.py"},
 
     {"img": '',
     "title": "What Would Dolly Do?",
@@ -43,7 +43,14 @@ export const projects = [
     "tech": "React",
     "url": "https://taylorhartsfield.github.io",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/musicplayer"},
-
+    
+    {"img": '',
+    "title": "Bodhi PM Website",
+    "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
+    "tech": "React",
+    "url": "http://bodhipm.com/",
+    "github": "https://github.com/TaylorHartsfield/BodhiPM"},
+    
     {"img": '',
     "title": "Weather App",
     "description": "A simple weather app that allows users to transition between C° and F°." ,
@@ -57,11 +64,6 @@ export const projects = [
     "description": "A traffic light build with React Hooks.",
     "tech": "React",
     "url": "https://taylorhartsfield.github.io/trafficlight",
-"github": "https://github.com/TaylorHartsfield/trafficlight"},
-
-
-    
-    
-    
+    "github": "https://github.com/TaylorHartsfield/trafficlight"},
 ]
 
