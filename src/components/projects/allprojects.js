@@ -20,6 +20,13 @@ export const projects = [
     "github": "https://github.com/TaylorHartsfield/Taylor-Codes-Portfolio"},
 
     {"img": '',
+    "title": "Bodhi PM Website",
+    "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
+    "tech": "React",
+    "url": "http://bodhipm.com/",
+    "github": "https://github.com/TaylorHartsfield/BodhiPM"},
+
+    {"img": '',
     "title": "Catch-A-Crunk",
     "description": "A 2D falling Object Game called that features myself as the basket, and my wife and our dog as the falling objects." ,
     "tech": "Python | Pygame",
@@ -43,13 +50,6 @@ export const projects = [
     "tech": "React",
     "url": "https://taylorhartsfield.github.io",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/musicplayer"},
-    
-    {"img": '',
-    "title": "Bodhi PM Website",
-    "description": "A site built for a property management company to advertise properties for rent and other services offered by the company." ,
-    "tech": "React",
-    "url": "http://bodhipm.com/",
-    "github": "https://github.com/TaylorHartsfield/BodhiPM"},
     
     {"img": '',
     "title": "Weather App",
