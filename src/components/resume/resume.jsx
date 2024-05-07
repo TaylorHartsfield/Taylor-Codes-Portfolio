@@ -1,4 +1,4 @@
-import TaylorResume from "../assets/TH2024.pdf";
+import TaylorResume from "../assets/TaylorResume2024QWEBSITE.pdf";
 
 export default function Resume(){
 
