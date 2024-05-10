@@ -48,7 +48,7 @@ export const projects = [
     personalization and share my favorite artists with visitors. All music has been purchased and approved for personal use, but please check out FLETCHER\
     to get more info on the artist! 🏳️‍🌈",
     "tech": "React",
-    "url": "https://taylorhartsfield.github.io",
+    "url": "https://taylorcodes.com",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/musicplayer"},
     
     {"img": '',
