@@ -1,4 +1,4 @@
-import TaylorResume from "../assets/TaylorResume2024QWEBSITE.pdf";
+import TaylorResume from "../assets/TaylorResume2024Canva.pdf";
 
 export default function Resume(){
 
