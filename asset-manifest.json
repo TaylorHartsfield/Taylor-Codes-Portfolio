@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e0c69f5.css",
-    "main.js": "/static/js/main.4ff714d3.js",
+    "main.css": "/static/css/main.c3938f61.css",
+    "main.js": "/static/js/main.67d6cd19.js",
     "static/media/Her Body Is Bible.mp3": "/static/media/Her Body Is Bible.25d07006c44a79c757ad.mp3",
     "static/media/Becky's So Hot.mp3": "/static/media/Becky's So Hot.ba66f156aaa4cbe36cd8.mp3",
     "static/media/Guess We Lied.mp3": "/static/media/Guess We Lied.bd45849bd8c0900b9836.mp3",
@@ -9,8 +9,8 @@
     "static/media/stack.gif": "/static/media/stack.a8aaddf5c3479d2ae8f6.gif",
     "static/media/headshot.jpeg": "/static/media/headshot.fe13a8b05f7d5b260bb1.jpeg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/TaylorResume2024Canva.pdf": "/static/media/TaylorResume2024Canva.3248a672c448fe6807c4.pdf",
     "static/media/dolly.png": "/static/media/dolly.abd26e2cb947b7623a03.png",
-    "static/media/TH2024.pdf": "/static/media/TH2024.99ed7e7728229dbc67a0.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
@@ -19,11 +19,11 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/index.html",
-    "main.5e0c69f5.css.map": "/static/css/main.5e0c69f5.css.map",
-    "main.4ff714d3.js.map": "/static/js/main.4ff714d3.js.map"
+    "main.c3938f61.css.map": "/static/css/main.c3938f61.css.map",
+    "main.67d6cd19.js.map": "/static/js/main.67d6cd19.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e0c69f5.css",
-    "static/js/main.4ff714d3.js"
+    "static/css/main.c3938f61.css",
+    "static/js/main.67d6cd19.js"
   ]
 }
