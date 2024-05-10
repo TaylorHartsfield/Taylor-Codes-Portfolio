@@ -50,7 +50,7 @@ export default function About(){
               onClick={handleOnClick}
               className="projectButton">
                 <strong>TECHNOLOGIES</strong>
-              </button> and <a className="projectButton" href="https://taylorhartsfield.github.io/#/projects">
+              </button> and <a className="projectButton" href="https://taylorcodes.com/#/projects">
                 PROJECTS
               </a>. <br/>
               

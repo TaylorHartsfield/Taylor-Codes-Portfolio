@@ -39,7 +39,7 @@ export const projects = [
     from the great and inspiring, Dolly Parton! This is hosted on my site. You can check it out at the WWDD\
     tab of the site.",
     "tech": "React",
-    "url": "https://taylorhartsfield.github.io/#/dolly",
+    "url": "https://taylorcodes.com/#/dolly",
     "github": "https://github.com/TaylorHartsfield/TaylorHartsfield.github.io/tree/main/src/components/dolly"},
 
     {"img": '',
